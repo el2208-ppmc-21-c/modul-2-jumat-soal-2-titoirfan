@@ -25,8 +25,8 @@ void main() {
   } while (fp == NULL);
 
   // mengambil tipe file, char atau hexa pada line pertama file external
-  char input_type[6] = "";
-  fgets(input_type, 6, fp);
+  char input_type[15];
+  fgets(input_type, 15, fp);
   
   printf("Input type: %s\n", input_type);
   printf("strcmp Hexa: %d\n", strcmp(input_type, "Hexa"));
