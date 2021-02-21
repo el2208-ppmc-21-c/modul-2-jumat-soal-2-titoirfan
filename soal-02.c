@@ -29,7 +29,7 @@ void main() {
   fgets(input_type, 15, fp);
   
   printf("Input type: %s\n", input_type);
-  printf("Input length: %zu\n" strlen(input_type));
+  printf("Input length: %zu\n", strlen(input_type));
   printf("strcmp Hexa: %d\n", strcmp(input_type, "Hexa\n"));
   printf("strcmp Char: %d\n", strcmp(input_type, "Char\n"));
   
