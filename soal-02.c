@@ -27,11 +27,12 @@ void main() {
   // mengambil tipe file, char atau hexa pada line pertama file external
   char input_type[15];
   fgets(input_type, 15, fp);
+  input_type[strcspn(input_type, "\n")] = '\0';
   
   printf("Input type: %s\n", input_type);
   printf("Input length: %zu\n", strlen(input_type));
-  printf("strcmp Hexa: %d\n", strcmp(input_type, "Hexa\n"));
-  printf("strcmp Char: %d\n", strcmp(input_type, "Char\n"));
+  printf("strcmp Hexa: %d\n", strcmp(input_type, "Hexa"));
+  printf("strcmp Char: %d\n", strcmp(input_type, "Char"));
   
   // melakukan konversi pada line kedua file external bergantung dari tipe file, char atau hexa
   printf("\nHasil konversi:\n");
