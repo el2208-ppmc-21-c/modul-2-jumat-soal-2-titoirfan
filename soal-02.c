@@ -28,10 +28,14 @@ void main() {
   char input_type[6] = "";
   fgets(input_type, 6, fp);
   
+  printf("Input type: %s\n", input_type);
+  printf("strcmp Hexa: %d", strcmp(input_type, "Hexa\n"));
+  printf("strcmp Char: %s", strcmp(input_type, "Char\n"));
+  
   // melakukan konversi pada line kedua file external bergantung dari tipe file, char atau hexa
   printf("\nHasil konversi:\n");
   // jika tipe file hexa, ubah hex string pada file eksternal menjadi hex int sehingga dapat menampilkan karakter ascii
-  if (strcmp(input_type, "Hexa") == 0) {
+  if (strcmp(input_type, "Hexa\n") == 0) {
     char file_buff[3];
     strcat(file_type, "hexadecimal");         // untuk display output file_type nantinya
     while (fgets(file_buff, 3, fp) != NULL) { // mengambil 2 karakter hex dan null terminating character \0 hingga EOF
@@ -42,7 +46,7 @@ void main() {
     }
   }
   // jika tipe file char, ubah karakter ascii pada file eksternal menjadi hex string/int
-  else if (strcmp(input_type, "Char") == 0) {
+  else if (strcmp(input_type, "Char\n") == 0) {
     strcat(file_type, "character");           // untuk display output file_type nantinya
     char c = fgetc(fp);                       // mengambil karakter paling 'ujung'
     int i = 0;
