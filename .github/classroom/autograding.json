@@ -1,0 +1,104 @@
+{
+  "tests": [
+    {
+      "name": "01",
+      "setup": "make soal-02",
+      "run": "./soal-02",
+      "input": "input1.txt",
+      "output": "Hasil konversi:\r\nEL2208 PPMC, Jika sempat, silahkan baca Test Case 9 dan 10.\r\n\r\nHasil didapatkan dari input hexadecimal dengan nilai:\r\n454c323230382050504d432c204a696b612073656d7061742c2073696c61686b616e20626163612054657374204361736520392064616e2031302e",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "02",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input0.txt\r\ninput2.txt",
+      "output": "Error membuka file, silahkan input ulang nama file\r\n\r\nNama file: input2.txt\r\n\r\nHasil konversi:\r\n45 4c 32 32 30 38 20 50 50 4d 43 2c 20 4a 69 6b 61 20 73 65 6d 70 61 74 2c 20 73 69 6c 61 68 6b 61 6e 20 62 61 63 61 20 54 65 73 74 20 43 61 73 65 20 39 20 64 61 6e 20 31 30 2e\r\n\r\nHasil didapatkan dari input character dengan nilai:\r\nEL2208 PPMC, Jika sempat, silahkan baca Test Case 9 dan 10.",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "03",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input3.txt",
+      "output": "Hasil konversi:\r\nIsi file tidak didukung",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "04",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "file_input.txt\r\ninput4.txt",
+      "output": "Error membuka file, silahkan input ulang nama file\r\n\r\nNama file: input4.txt\r\n\r\nHasil konversi:\r\n20 21 22 23 24 25 26 27 28 29 2a 2b 2c 2d 2e 2f 30 31 32 33 34 35 36 37 38 39 3a 3b 3c 3d 3e 3f 40 41 42 43 44 45 46 47 48 49 4a 4b 4c 4d 4e 4f 50 51 52 53 54 55 56 57 58 59 5a 5b 5c 5d 5e 5f 60 61 62 63 64 65 66 67 68 69 6a 6b 6c 6d 6e 6f 70 71 72 73 74 75 76 77 78 79 7a 7b 7c 7d 7e\r\n\r\nHasil didapatkan dari input character dengan nilai:\r\n !\"#$%&'()*+,-./0123456789:;<=>?@ABCDEFGHIJKLMNOPQRSTUVWXYZ[\\]^_`abcdefghijklmnopqrstuvwxyz{|}~",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "05",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input5.txt",
+      "output": "Hasil konversi:\r\nCenturies ago, mankind was slaughtered to near extinction by monstrous humanoid creatures called titans, forcing humans to hide in fear behind enormous concentric walls. What makes these giants truly terrifying is that their taste for human...\r\n\r\nHasil didapatkan dari input hexadecimal dengan nilai:\r\n43656e7475726965732061676f2c206d616e6b696e642077617320736c61756768746572656420746f206e65617220657874696e6374696f6e206279206d6f6e7374726f75732068756d616e6f6964206372656174757265732063616c6c656420746974616e732c20666f7263696e672068756d616e7320746f206869646520696e206665617220626568696e6420656e6f726d6f757320636f6e63656e747269632077616c6c732e2057686174206d616b6573207468657365206769616e7473207472756c792074657272696679696e67206973207468617420746865697220746173746520666f722068756d616e2e2e2e",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "06",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input6.txt",
+      "output": "Hasil konversi:\r\n66 6c 65 73 68 20 69 73 20 6e 6f 74 20 62 6f 72 6e 20 6f 75 74 20 6f 66 20 68 75 6e 67 65 72 20 62 75 74 20 77 68 61 74 20 61 70 70 65 61 72 73 20 74 6f 20 62 65 20 6f 75 74 20 6f 66 20 70 6c 65 61 73 75 72 65 2e 20 54 6f 20 65 6e 73 75 72 65 20 74 68 65 69 72 20 73 75 72 76 69 76 61 6c 2c 20 74 68 65 20 72 65 6d 6e 61 6e 74 73 20 6f 66 20 68 75 6d 61 6e 69 74 79 20 62 65 67 61 6e 20 6c 69 76 69 6e 67 20 77 69 74 68 69 6e 20 64 65 66 65 6e 73 69 76 65 20 62 61 72 72 69 65 72 73 2c 20 72 65 73 75 6c 74 69 6e 67 20 69 6e 20 6f 6e 65 20 68 75 6e 64 72 65 64 20 79 65 61 72 73 20 77 69 74 68 6f 75 74 20 61 20 73 69 6e 67 6c 65 20 74 69 74 61 6e 20 65 6e 63 6f 75 6e 74 65 72 2e 20 2d 53 68 69 6e 67 65 6b 69 20 6e 6f 20 4b 79 6f 6a 69 6e\r\n\r\nHasil didapatkan dari input character dengan nilai:\r\nflesh is not born out of hunger but what appears to be out of pleasure. To ensure their survival, the remnants of humanity began living within defensive barriers, resulting in one hundred years without a single titan encounter. -Shingeki no Kyojin",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "07",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input7.txt",
+      "output": "Hasil konversi:\r\nSong Young-Dal (Cheon Ho-Jin) and Jang Ok-Boon (Cha Hwa-Yeon) have been married for many years and they have 4 children: Joon-Sun (Oh Dae-Hwan), Ga-Hee (Oh Yoon-Ah), Na-Hee (Lee Min-Jung) and Da-Hee (Lee Cho-Hee). -https://asianwiki.com/Once_Again\r\n\r\nHasil didapatkan dari input hexadecimal dengan nilai:\r\n536f6e6720596f756e672d44616c20284368656f6e20486f2d4a696e2920616e64204a616e67204f6b2d426f6f6e2028436861204877612d59656f6e292068617665206265656e206d61727269656420666f72206d616e7920796561727320616e64207468657920686176652034206368696c6472656e3a204a6f6f6e2d53756e20284f68204461652d4877616e292c2047612d48656520284f6820596f6f6e2d4168292c204e612d48656520284c6565204d696e2d4a756e672920616e642044612d48656520284c65652043686f2d486565292e202d68747470733a2f2f617369616e77696b692e636f6d2f4f6e63655f416761696e",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "08",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input8\r\ninput8.txt",
+      "output": "Error membuka file, silahkan input ulang nama file\r\n\r\nNama file: input8.txt\r\n\r\nHasil konversi:\r\n54 68 69 72 64 20 63 68 69 6c 64 20 4e 61 2d 48 65 65 20 69 73 20 61 20 64 6f 63 74 6f 72 20 61 6e 64 20 73 68 65 20 77 6f 72 6b 73 20 77 69 74 68 20 68 65 72 20 68 75 73 62 61 6e 64 20 44 6f 63 74 6f 72 20 4b 79 75 2d 4a 69 6e 20 28 4c 65 65 20 53 61 6e 67 2d 59 65 6f 62 29 20 61 74 20 74 68 65 20 73 61 6d 65 20 68 6f 73 70 69 74 61 6c 2e 20 54 68 65 79 20 66 65 6c 6c 20 69 6e 20 6c 6f 76 65 20 64 75 72 69 6e 67 20 74 68 65 69 72 20 6d 65 64 69 63 61 6c 20 73 63 68 6f 6f 6c 20 64 61 79 73 20 61 6e 64 20 67 6f 74 20 6d 61 72 72 69 65 64 2c 20 62 75 74 20 74 68 65 69 72 20 6d 61 72 72 69 61 67 65 20 6c 69 66 65 20 69 73 20 6e 6f 74 20 64 6f 69 6e 67 20 76 65 72 79 20 77 65 6c 6c 2e 20 2d 68 74 74 70 73 3a 2f 2f 61 73 69 61 6e 77 69 6b 69 2e 63 6f 6d 2f 4f 6e 63 65 5f 41 67 61 69 6e\r\n\r\nHasil didapatkan dari input character dengan nilai:\r\nThird child Na-Hee is a doctor and she works with her husband Doctor Kyu-Jin (Lee Sang-Yeob) at the same hospital. They fell in love during their medical school days and got married, but their marriage life is not doing very well. -https://asianwiki.com/Once_Again",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "09",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input9.txt",
+      "output": "Hasil konversi:\r\nC merupakan salah satu bahasa pemrograman yang wajib bagi kalian yang ingin masuk ke dalam dunia Embedded Systems. Gunakan waktu pada kuliah dan praktikum ini dengan sebaik mungkin karena akan sangat bermanfaat pada semester yang akan datangBacaTestCase10\r\n\r\nHasil didapatkan dari input hexadecimal dengan nilai:\r\n43206d65727570616b616e2073616c61682073617475206261686173612070656d726f6772616d616e2079616e672077616a69622062616769206b616c69616e2079616e6720696e67696e206d6173756b206b652064616c616d2064756e696120456d6265646465642053797374656d732e2047756e616b616e2077616b74752070616461206b756c6961682064616e207072616b74696b756d20696e692064656e67616e2073656261696b206d756e676b696e206b6172656e6120616b616e2073616e676174206265726d616e6661617420706164612073656d65737465722079616e6720616b616e20646174616e674261636154657374436173653130",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    },
+    {
+      "name": "10",
+      "setup": "",
+      "run": "./soal-02",
+      "input": "input10.txt",
+      "output": "Hasil konversi:\r\n42 61 63 61 54 65 73 74 43 61 73 65 39 2e 20 54 65 72 61 73 61 68 6e 79 61 20 6b 65 6d 61 6d 70 75 61 6e 20 62 61 68 61 73 61 20 43 20 6b 61 6c 69 61 6e 20 70 61 64 61 20 73 65 6d 65 73 74 65 72 20 69 6e 69 20 6d 65 6d 62 75 61 74 20 6b 61 6c 69 61 6e 20 64 61 70 61 74 20 6d 65 6d 70 65 6c 61 6a 61 72 69 20 68 61 6c 2d 68 61 6c 20 6c 61 69 6e 20 70 61 64 61 20 73 65 6d 65 73 74 65 72 20 79 61 6e 67 20 61 6b 61 6e 20 64 61 74 61 6e 67 20 74 61 6e 70 61 20 6d 65 6e 67 61 6c 61 6d 69 20 6b 65 77 61 6c 61 68 61 6e 20 64 61 6c 61 6d 20 70 65 72 6b 75 6c 69 61 68 61 6e 20 79 61 6e 67 20 6d 65 6d 62 75 74 75 68 6b 61 6e 20 62 61 68 61 73 61 20 43 20 28 53 69 73 6d 69 6b 2c 20 53 69 73 69 6e 2c 20 50 53 45 2c 20 54 75 67 61 73 20 41 6b 68 69 72 2c 20 64 6c 6c 29\r\n\r\nHasil didapatkan dari input character dengan nilai:\r\nBacaTestCase9. Terasahnya kemampuan bahasa C kalian pada semester ini membuat kalian dapat mempelajari hal-hal lain pada semester yang akan datang tanpa mengalami kewalahan dalam perkuliahan yang membutuhkan bahasa C (Sismik, Sisin, PSE, Tugas Akhir, dll)",
+      "comparison": "included",
+      "timeout": 1,
+      "points": 10
+    }
+  ]
+}
