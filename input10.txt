@@ -1,0 +1,2 @@
+Char
+BacaTestCase9. Terasahnya kemampuan bahasa C kalian pada semester ini membuat kalian dapat mempelajari hal-hal lain pada semester yang akan datang tanpa mengalami kewalahan dalam perkuliahan yang membutuhkan bahasa C (Sismik, Sisin, PSE, Tugas Akhir, dll)
